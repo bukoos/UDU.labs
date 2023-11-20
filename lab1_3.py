@@ -1,9 +1,8 @@
 #Напишіть програму для друку літери Д висотою 5 рядків за допомогою введеного користувачем символу. Буртенко 31І
-symbol = input("Введіть символ для побудови літери 'Д': ")
+n = str(input("Введіть символ: "))
 
-print(symbol * 5)  
-
-for i in range(3):  
-    print(symbol + " " * 3 + symbol)  
-
-print(symbol * 5)  
+print(f'{n}  {n}  {n}')
+print(f'{n}       {n}')
+print(f'{n}       {n}')
+print(f'{n}       {n}')
+print(f'{n}  {n}  {n}')
